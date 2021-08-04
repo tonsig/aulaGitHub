@@ -3,7 +3,7 @@ executar o git
 mudar para o diretorio criado.
 
 // para logar
-git config --global user.name "sergiotonsig" 
+git config --global user.name "tonsig" 
 git config --global user.email "tonsig@yahoo.com" 
 
 //conferir 
@@ -46,6 +46,7 @@ ou
 git add .  ( para todos arquivos da pasta )
 
 // retornar para uma determinada versão anterior ao MASTER
+// navegar pelos commits
 // git checkout #id#
 
 // primeiro ver o log
@@ -64,6 +65,9 @@ Date:   Wed Aug 4 14:34:20 2021 -0300
 
 // depois indicar a versão desejada via id do commit
 git checkout bcca6dfdb3294e9a531beee604a8607350f26c2e
+
+// para retonar onde estava o master
+git checkout master
 
 
 
