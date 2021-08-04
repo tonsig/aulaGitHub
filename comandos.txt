@@ -40,5 +40,33 @@ git log
 
 // acrescentar coisas no arquivo.
 
+// inclui arquivos com as alterações no contexto do git
+git add aula_1.php comandos.txt
+ou 
+git add .  ( para todos arquivos da pasta )
+
+// retornar para uma determinada versão anterior ao MASTER
+// git checkout #id#
+
+// primeiro ver o log
+$ git log
+commit d94d15fbf29de38916aeb187ff2f33cf6732abe6 (HEAD -> master)
+Author: sergiotonsig <tonsig@yahoo.com>
+Date:   Wed Aug 4 14:42:58 2021 -0300
+
+    alteração do oi gente
+
+commit bcca6dfdb3294e9a531beee604a8607350f26c2e
+Author: sergiotonsig <tonsig@yahoo.com>
+Date:   Wed Aug 4 14:34:20 2021 -0300
+
+    criacao do oi gente
+
+// depois indicar a versão desejada via id do commit
+git checkout bcca6dfdb3294e9a531beee604a8607350f26c2e
+
+
+
+
 
 
