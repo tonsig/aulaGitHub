@@ -1,0 +1,17 @@
+// para logar
+git config --global user.name "sergiotonsig" 
+git config --global user.email "tonsig@yahoo.com" 
+
+//conferir 
+git config --list
+
+// iniciar
+git init
+
+// status
+git status
+-- vai mostrar Untracked files (arquivos não rastreaveis)
+-- e mostra o comando para a gente incluir
+
+// inclui arquivos
+git add aula_1.php comandos.txt
