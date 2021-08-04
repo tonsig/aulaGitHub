@@ -1,3 +1,7 @@
+// criar um diretório
+executar o git
+mudar para o diretorio criado.
+
 // para logar
 git config --global user.name "sergiotonsig" 
 git config --global user.email "tonsig@yahoo.com" 
@@ -13,5 +17,28 @@ git status
 -- vai mostrar Untracked files (arquivos não rastreaveis)
 -- e mostra o comando para a gente incluir
 
-// inclui arquivos
+// inclui arquivos no contexto do git
 git add aula_1.php comandos.txt
+
+git status // para ver como ficou
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aula_1.php
+        new file:   comandos.txt
+-- mostra que já esta pronto para o commit
+-- commit é uma gravação local para controle do versionamento
+
+// fazendo primeiro commit
+git commit -m "criacao do oi gente"
+
+// log
+git log
+
+// acrescentar coisas no arquivo.
+
+
+
