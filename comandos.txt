@@ -95,9 +95,9 @@ git commit -m "gravacao na branch"
 git push -u origin alteracao-programa
 
 // como fazer o merge com a master depois
-git checkout master
+git checkout main
 git merge alteracao-programa 
 git add .
 git commit -m "merge da branch alteracao-programa"
-git push -u origin master
+git push -u origin main
 
