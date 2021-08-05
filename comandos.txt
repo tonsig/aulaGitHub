@@ -91,3 +91,13 @@ git checkout -b alteracao-programa    // cria uma brench e dá foco nela
 git add .
 git commit -m "gravacao na branch"
 
+// fazer o push para a nova branch
+git push -u origin alteracao-programa
+
+// como fazer o merge com a master depois
+git checkout master
+git merge alteracao-programa 
+git add .
+git commit -m "merge da branch alteracao-programa"
+git push -u origin master
+
